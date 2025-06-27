@@ -1,0 +1,11 @@
+/*   large size   */
+@media only screen and (min-width: 1538px) {
+    main {
+        max-width: 1520px;
+        margin: auto;
+    }
+
+    .nav_container ul {
+        justify-content: space-between;
+    }
+}
