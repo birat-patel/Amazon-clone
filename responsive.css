@@ -51,7 +51,6 @@
     .logo_box {
         height: 41px;
         margin-left: 4px;
-        /* border: 2px solid; */
     }
 
     .logo {
@@ -217,4 +216,5 @@
         min-width: 760px;
     }
 }
+
 
