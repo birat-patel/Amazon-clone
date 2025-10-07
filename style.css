@@ -26,7 +26,6 @@ header {
   width: 100%;
   display: flex;
   align-items: center;
-  /* flex-wrap: wrap; */
 }
 
 .logo_box {
@@ -42,7 +41,6 @@ header {
   background-image: url("https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB546381437_.png");
   background-position-x: -10px;
   background-position-y: -119px;
-
 }
 
 .in {
@@ -153,6 +151,7 @@ header {
   font-size: 14px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-left: 11px;
   flex-wrap: wrap;
 }
@@ -256,11 +255,20 @@ header {
 }
 
 
+/*   main section    */
+main {
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+  /* margin: 40px; */
+}
+
 /*   image slider   */
 .image_box {
-  width: 1500px;
+  width: 100%;
+  /* max-width: 1500px; */
   height: 100%;
-  margin: auto;
+  /* margin: auto; */
   overflow: hidden;
   position: relative;
   margin-bottom: 90px;
@@ -268,11 +276,14 @@ header {
 
 .all_image {
   display: flex;
-  transition: all 1s ease 0.1s;
+  transition: transform 1s ease 0.1s;
 }
 
 .Aimage {
-  width: 1500px;
+  height: 600px;
+  width: 100%;
+  flex: 0 0 100%;
+  /* object-fit: cover; */
 }
 
 .button_box {
@@ -291,41 +302,53 @@ header {
   border: 1px solid transparent;
   border-radius: 2px;
   margin: 5PX;
+  cursor: pointer;
 }
 
 .button_box button:focus {
   box-shadow: 0px 0px 0px 2PX rgb(0, 136, 255), 0px 0px 0px 4PX white;
 }
 
+/*   hero-section    */
+.hero-section {
+  margin: 20px;
+}
 
 /*    M_container    */
 .M_container {
   display: flex;
   position: absolute;
   top: 349px;
-  margin: 0px 10px;
+  gap: 20px;
+  margin-right: 20px;
 }
 
 .C_box1 {
-  width: 350px;
   height: 420px;
+  width: 25%;
+  min-width: 285px;
+  max-width: 350px;
   background: white;
-  margin-left: 20px;
 }
 
 .h2 {
   font-size: 21px;
-  padding: 22px 12px 12px 19px;
+  margin: 22px 2px 12px 20px;
 }
 
 .item_box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  margin: 0 20px;
+  gap: 0 20px;
+}
+
+.phone {
+  width: calc(50% - 10px);
 }
 
 .phone img {
-  width: 130px;
+  width: 100%;
   height: 148px;
   border-radius: 8px;
 }
@@ -345,12 +368,14 @@ header {
 }
 
 .imgA {
-  width: 147px;
-  padding-bottom: 30px;
+  flex: 1 1 44%;
+  /*  har row me 2 box (approx half width)  */
+  padding-bottom: 20px;
 }
 
 .imgA img {
-  width: 147px;
+
+  width: 100%;
   height: 102px;
 }
 
@@ -358,57 +383,46 @@ header {
   font-size: 12px;
 }
 
-.imgB {
-  width: 147px;
-  padding-bottom: 12px;
-}
-
-.imgB img {
-  width: 147px;
-  height: 116px;
-}
-
 .C_box2 {
   background: transparent;
 }
 
 .box2a {
-  width: 350px;
+  width: 100%;
   height: 150px;
   background: white;
 }
 
-.h2a {
-  font-size: 21px;
-  padding: 22px 20px 12px 19px;
+.box2a .h2 {
+  padding: 22px 20px 12px 20px;
+  margin: 0;
 }
 
 .butt2a {
   background: yellow;
-  width: 300px;
+  width: 90%;
   height: 34px;
   border-radius: 16px;
   border: none;
-  margin: 3px 20px;
-
+  margin: 3px 15px;
 }
 
 .box2b {
-  width: 300px;
+  width: 100%;
   height: 250px;
   background: white;
-  margin: auto;
   margin-top: 20px;
 }
 
 .box2b img {
   width: 120px;
-  margin: 10px 75px;
-  margin-bottom: 25px;
+  display: block;
+  margin: auto;
+  padding: 20px 0;
 }
 
 .box2b p {
-  margin-left: 17px;
+  margin-left: 18px;
   margin-bottom: 3px;
 }
 
@@ -416,18 +430,17 @@ header {
 /*    M_container_1    */
 .M_container_1 {
   display: flex;
-  margin: 0px 10px;
   position: relative;
+  gap: 20px;
 }
 
 
 /*    M_container_2    */
 .M_container2 {
   background: white;
-  padding: 15px;
-  padding-top: 24px;
-  margin: 30px;
-  margin-bottom: 24px;
+  padding: 24px 15px 8px 15px;
+  margin-top: 20px;
+  position: relative;
 }
 
 .M_container2 h2 {
@@ -435,26 +448,45 @@ header {
   display: inline;
 }
 
-.M_container2 button {
-  background: transparent;
-  border: none;
-  color: #2162a1;
-  margin-left: 10px;
-}
-
 .All_item {
   display: flex;
-  overflow-x: auto;
+  gap: 10px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.All_item img {
   margin-top: 10px;
-  gap: 10px
+  margin-bottom: 20px;
+}
+
+.M_container2 .item-button {
+  font-size: 20px;
+  position: absolute;
+  bottom: 80px;
+  height: 90px;
+  width: 44px;
+  background: white;
+  cursor: pointer;
+  border: none;
+}
+
+.M_container2 #left-butt {
+  border-radius: 0 4px 4px 0;
+  box-shadow: 2px 1px 3px #888;
+}
+
+.M_container2 #right-butt {
+  right: 15px;
+  border-radius: 4px 0 0 4px;
+  box-shadow: -2px 1px 3px #888;
 }
 
 
-
-/*   first footer    */
-.First_foot {
+/*     footer    */
+.foot_box {
   background: white;
-  padding: 44px 0px 20px 0px;
+  padding-top: 44px;
 }
 
 .F_foot {
@@ -484,8 +516,6 @@ header {
   text-decoration: underline;
 }
 
-
-/*     footer    */
 .foot_box1 {
   background: #37475a;
   color: #fff;
@@ -501,8 +531,9 @@ header {
 
 .foot_box2a {
   display: flex;
-  justify-content: space-evenly;
-  padding: 40px 144px;
+  justify-content: center;
+  padding: 40px 0;
+  gap: 84px;
 }
 
 .foot_box2a p {
@@ -512,6 +543,7 @@ header {
 .foot_box2a ul li {
   list-style: none;
   margin: 10px 0px;
+  width: 184px;
 }
 
 .foot_box2a ul li a {
@@ -526,13 +558,14 @@ header {
 
 .foot_box2b {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   border-top: 1px solid #37475a;
-  padding: 28px 470px 44px 470px;
+  padding: 40px;
 }
 
 .ind_boxs {
   margin-top: 8px;
+  margin-left: 75px;
 }
 
 .ind_box {
@@ -553,16 +586,16 @@ header {
 .foot_box3 {
   background: #131a22;
   color: rgb(221, 221, 221);
-}
-
-.foot_box3 .box3a {
-  padding: 10px;
+  padding-top: 20px;
 }
 
 .foot_box3 ul {
   display: flex;
-  justify-content: space-evenly;
-  margin: 16px 500px 1px 210px;
+  justify-content: center;
+  gap: 55px;
+  padding-top: 16px;
+  padding-right: 277px;
+
 }
 
 .foot_box3 ul li {
@@ -597,3 +630,4 @@ header {
 .foot_box3 .box3b a:hover {
   text-decoration: underline;
 }
+
