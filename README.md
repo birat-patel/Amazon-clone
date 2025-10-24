@@ -35,16 +35,25 @@ It recreates the UI design and layout of the Amazon India homepage with smooth i
 ## Screenshots  
 
 ### Home Page
-![Home Page](https://github.com/birat-patel/Netflix_Clone/blob/4be6fbde34450ff709ffbfdc0f4320f6c530dc22/assets/webside-view/Screenshot%202200101.png)
+![Home Page](https://github.com/birat-patel/Amazon-clone/blob/main/assets/view-project/Screenshot%202025-10-14%20151001.png?raw=true)
 
 ### Main Section
-![Main Section](https://github.com/birat-patel/Netflix_Clone/blob/b817ee5b1ff74e4242574b6019c5b270dd42e124/assets/webside-view/Screenshot%202200102.png)
+![Hover Prime](https://github.com/birat-patel/Amazon-clone/blob/main/assets/view-project/Screenshot%202025-10-14%201519002.png?raw=true)
 
-### FAQ Section
-![FAQ Section](https://github.com/birat-patel/Netflix_Clone/blob/main/assets/webside-view/Screenshot%202200103.png?raw=true)
+### Main Section
+![Click Main](https://github.com/birat-patel/Amazon-clone/blob/main/assets/view-project/Screenshot%202025-10-14%201519003.png?raw=true)
+
+### Main Section
+![Main Section](https://github.com/birat-patel/Amazon-clone/blob/main/assets/view-project/Screenshot%202025-10-14%201519004.png?raw=true)
+
+### Main Section
+![Main Section](https://github.com/birat-patel/Amazon-clone/blob/main/assets/view-project/Screenshot%202025-10-14%201519006.png?raw=true)
 
 ### Footer
-![Footer](https://github.com/birat-patel/Netflix_Clone/blob/4be6fbde34450ff709ffbfdc0f4320f6c530dc22/assets/webside-view/Screenshot%202200104.png)
+![Footer](https://github.com/birat-patel/Amazon-clone/blob/main/assets/view-project/Screenshot%202025-10-14%201521007.png?raw=true)
+
+### mobile view
+![mobile](https://github.com/birat-patel/Amazon-clone/blob/main/assets/view-project/Screenshot%202025-10-14%20152334.png?raw=true)
 
 
 ## 🚀 How to Run the Project Locally
@@ -53,8 +62,9 @@ It recreates the UI design and layout of the Amazon India homepage with smooth i
    git clone https://github.com/birat-patel/Amazon-clone.git
    
 2.Open the project folder:
+ ```bash
    cd Amazon-clone
-
+```
 
 3. Run the project:
    Simply open index.html in your browser
