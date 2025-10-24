@@ -38,16 +38,16 @@ It recreates the UI design and layout of the Amazon India homepage with smooth i
 ![Home Page](https://github.com/birat-patel/Amazon-clone/blob/main/assets/view-project/Screenshot%202025-10-14%20151001.png?raw=true)
 
 ### Main Section
-![Hover Prime](https://github.com/birat-patel/Amazon-clone/blob/main/assets/view-project/Screenshot%202025-10-14%201519002.png?raw=true)
+![Hover Prime](https://github.com/birat-patel/Amazon-clone/blob/main/assets/view-project/Screenshot%202025-10-14%201518002.png?raw=true)
 
 ### Main Section
-![Click Main](https://github.com/birat-patel/Amazon-clone/blob/main/assets/view-project/Screenshot%202025-10-14%201519003.png?raw=true)
+![Click Main](https://github.com/birat-patel/Amazon-clone/blob/main/assets/view-project/Screenshot%202025-10-14%20151003.png?raw=true)
 
 ### Main Section
 ![Main Section](https://github.com/birat-patel/Amazon-clone/blob/main/assets/view-project/Screenshot%202025-10-14%201519004.png?raw=true)
 
 ### Main Section
-![Main Section](https://github.com/birat-patel/Amazon-clone/blob/main/assets/view-project/Screenshot%202025-10-14%201519006.png?raw=true)
+![Main Section](https://github.com/birat-patel/Amazon-clone/blob/main/assets/view-project/Screenshot%202025-10-14%20152006.png?raw=true)
 
 ### Footer
 ![Footer](https://github.com/birat-patel/Amazon-clone/blob/main/assets/view-project/Screenshot%202025-10-14%201521007.png?raw=true)
